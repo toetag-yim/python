@@ -8,8 +8,8 @@ test1='hello world'
 test2='hello country'
 
 if test1 == test1:
-    print('passed')
+    print('True')
 if test1 == test2:
-    print('passed')
+    print('True')
 else:
-   print('failed')
+   print('False')
